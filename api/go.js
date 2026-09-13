@@ -3,4 +3,4 @@ module.exports = (req, res) => {
   res.writeHead(302, { Location: "https://req-collector-lab.vercel.app/api/collect" });
   res.end();
 };
-// commit A, mesure du gate de fork
+// commit B, mesure du gate de fork apres approbation
